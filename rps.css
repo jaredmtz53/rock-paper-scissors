@@ -1,0 +1,54 @@
+.running-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.rock,
+.paper,
+.scissors {
+    background-color: rgb(167, 210, 236);
+    border-style: none;
+    padding: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+    background-color: rgb(106, 188, 239);
+
+}
+.image {
+    width: 100px;
+}
+.versus-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.outcome {
+    text-align: center;
+    margin-top: 70px;
+}
+.play-again {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.rstbutton {
+    background-color: rgb(167, 210, 236);
+    border-style: none;
+    padding: 20px 20px;
+    border-radius: 20px;
+}.rstbutton:hover {
+    background-color: rgb(106, 188, 239);
+}
